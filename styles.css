@@ -26,8 +26,8 @@
 
 #response-text {
   transition-duration: 200ms;
-  opacity: 0;
   visibility: hidden;
+  opacity: 0;
 }
 
 #response-text.active {
