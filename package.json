@@ -1,13 +1,12 @@
 {
-  "name": "demo-chainsafe",
+  "name": "game-web3wallet",
   "version": "0.1.0",
   "private": true,
   "main": "index.html",
-  "homepage": "https://fir-chainsafe.web.app/",
+  "homepage": "https://lands.imversed.world/",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html",
-    "deploy-firebase": "yarn build && firebase deploy"
+    "build": "parcel build index.html --public-url /game-web3wallet"
   },
   "dependencies": {
     "ethers": "5.5.1",
